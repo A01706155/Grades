@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+int main(int argc, char* argv[]) {
   Grader alumno1("112341423114322314231442314231223422","11 3 1133 22322314231432211231 34 2 ");
 
   cout<<"Tu puntaje es de "<<alumno1.obtenerPuntaje()<<" puntos, tu calificación es: "<<alumno1.obtenerGrado()<<endl;
